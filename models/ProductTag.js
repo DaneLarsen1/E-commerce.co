@@ -6,7 +6,7 @@ class ProductTag extends Model {}
 
 ProductTag.init(
   {
-    // define columns
+   
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
@@ -26,7 +26,7 @@ ProductTag.init(
           key: "id",
         },
       },
-    },//
+    },
   },
   {
     sequelize,
